@@ -21,14 +21,19 @@ The Mero Cafe bar is an app built with JavaScript and Webpack
 
 To get a local copy of the repository please run the following commands on your terminal:
 
-```
-$ cd <folder>
-```
-
-```
-$ git clone git@github.com:omar-labana/restaurant-page.git
-```
-
+1. Clone the repo
+   ```sh
+   git clone https://github.com/omar-labana/feat-restaurant.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run webpack in dev mode
+    ```sh
+      npm run dev
+     ```
+4. open dist/index.html
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
